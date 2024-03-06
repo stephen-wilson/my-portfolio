@@ -1,7 +1,3 @@
-<svelte:head>
-	<title>CV/Resume</title>
-</svelte:head>
-
 <h1>Stephen Wilson</h1>
 
     <section>

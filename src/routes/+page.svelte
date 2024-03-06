@@ -1,6 +1,10 @@
 <svelte:head>
 	<title>Stephen's Portfolio</title>
 </svelte:head>
+<script>
+    import projects from '$lib/projects.json';
+    import Project from "$lib/Project.svelte";
+</script>
 
 <img id="profile-photo" src="images/professional_headshot.jpg" alt="A professional headshot of Stephen Wilson."/>
     <h1>Stephen Wilson</h1>
@@ -13,3 +17,10 @@
     <p>
         I have previous internship experience doing data science work at a startup and research experience at MIT in applied natural language processing for language education.
     </p>
+
+<h2>Latest Projects</h2>
+<div class="projects highlights">
+    {#each projects.slice(0, 3) as p}
+    <Project info={p} hLevel = 3/>
+    {/each}
+</div>
