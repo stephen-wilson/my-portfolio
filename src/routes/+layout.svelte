@@ -7,6 +7,13 @@
         {url: "./projects", title: "Projects"},
         {url: "./contact", title: "Contact"},
     ];
+
+    let root = globalThis?.document?.documentElement;
+    $: root?.style.setProperty("color-scheme", colorScheme);
+
+    let localStorage = globalThis.localStorage ?? {};
+    let colorScheme = localStorage.colorScheme ?? "light dark";
+    $: localStorage.colorScheme = colorScheme;
 </script>
 <style>
     .menu {
@@ -42,7 +49,22 @@
             padding-bottom: 0em;
         }
     }
+
+    .color-scheme {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
 </style>
+
+<label class="color-scheme">
+    Theme:
+    <select bind:value={ colorScheme }>
+        <option value="light dark">Automatic</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label>
 
 <nav class="menu">
 	{#each pages as p }
