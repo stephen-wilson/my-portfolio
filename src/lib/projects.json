@@ -1,61 +1,73 @@
 [
     {
         "title": "Persuasive or Deceptive Visualization?",
+        "year": 2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Throughout this project, I used visualizations to explore the idea of persuasive and deceptive visualizations. The proposition I argued for and against was \"Favoring increasing renewable energy production over nonrenewable energy production is more beneficial for strengthening the GDP of the United States.\""
     },
     {
-        "title": "Perspiciatis iure ratione voluptatibus.",
+        "title": "Visualization Design",
+        "year": 2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Iusto quisquam ipsum vitae harum voluptatum aut porro, architecto ratione doloremque dolores dolorem rerum consequuntur, quam, cumque sed provident. Dolor facilis blanditiis laboriosam tempora, ratione distinctio incidunt porro aliquid atque."
+        "description": "In this project, I used various sketches to guide the visualization design process, and then based on those sketches, found the best features and implemented them into a main visualization."
     },
     {
-        "title": "Perferendis, sunt expedita? Alias.",
+        "title": "Exploratory Visual Analysis",
+        "year": 2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Vitae dolor omnis fugit expedita? Nobis expedita amet adipisci! Ipsam eius accusantium ipsum, quidem ipsa sit asperiores ut, aliquid provident sequi vitae ducimus nobis cumque. Doloremque enim culpa molestiae labore."
+        "description": "Based on the theme \"Housing for the Rich\" for the Boston metropolitan area, I performed exploratory visual analysis of the data and then explored three different overall analysis questions through visualizations."
     },
     {
         "title": "Nihil optio minus alias.",
+        "year": 2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Eligendi non cum vitae sapiente aspernatur eaque laboriosam temporibus totam nulla a quidem dolorem saepe quas nihil, ad dolor porro eius perferendis. Necessitatibus accusamus quo quibusdam natus accusantium maiores magnam?"
     },
     {
         "title": "Dicta voluptas impedit delectus.",
+        "year": 2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Dolorem nesciunt fugiat possimus magnam hic, repudiandae eveniet sed nihil harum, consequuntur explicabo necessitatibus consectetur magni molestiae sunt? Exercitationem expedita animi atque voluptatem fuga quod, praesentium in amet illum suscipit."
     },
     {
         "title": "Minus reiciendis at neque?",
+        "year": 2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Ratione deleniti et eum dolores ab officiis, quis natus quasi asperiores repellat ad fuga recusandae rem aliquid perferendis veniam temporibus porro facere magnam tempora quam, nobis amet dolor? Totam, reiciendis."
     },
     {
         "title": "Nobis neque quam consequatur!",
+        "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Pariatur perferendis officiis placeat consectetur eum sunt quia veritatis. Placeat, nemo quo asperiores cumque omnis debitis, minus soluta veritatis recusandae vel officia, alias beatae sint voluptas! Omnis placeat quibusdam explicabo."
     },
     {
         "title": "Quo magni itaque illo.",
+        "year": 2021,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Delectus omnis, repudiandae inventore optio eius, qui quae aspernatur voluptas tempore possimus nesciunt dignissimos iste a id eos sequi temporibus aperiam? Impedit quod ex, facere natus deserunt magnam expedita saepe."
     },
     {
         "title": "Maiores facilis unde ratione?",
+        "year": 2021,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Facere eveniet blanditiis deleniti consequatur quas harum nemo deserunt consectetur possimus est quam commodi fuga inventore culpa, eligendi perferendis fugit porro impedit asperiores? Fugit eligendi fuga earum corporis commodi cupiditate."
     },
     {
         "title": "Ullam eum maiores odio?",
+        "year": 2019,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Nulla, dicta eius fugiat cupiditate nemo tempore harum accusamus ratione ipsam molestias soluta id sit in nostrum eum, voluptate consectetur esse doloribus quo quis, sunt ad? Commodi quae ad vitae."
     },
     {
         "title": "Necessitatibus debitis iusto ducimus.",
+        "year": 2018,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Obcaecati quae velit dignissimos sunt? Quos maxime optio rem voluptatibus dolorum magni totam similique, eum beatae ex labore possimus quia doloribus nostrum molestias! Fuga inventore id sunt ipsum quidem hic!"
     },
     {
         "title": "Dolorum excepturi perferendis tempora!",
+        "year": 2017,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Modi quis voluptas et sapiente magni inventore voluptatem quia consequatur? Omnis enim porro nobis cum non excepturi veniam aspernatur impedit consequatur, magni facilis commodi exercitationem nulla explicabo repellat quam ad!"
     }
