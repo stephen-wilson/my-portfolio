@@ -69,7 +69,7 @@
     $: console.log(d3.max(commits.map(o => o.datetime)));
     $: xScale = d3.scaleTime()
         .domain(d3.extent(commits.map(o => o.datetime)))
-        .range([0, width])
+        .range([usableArea.left, usableArea.right])
         .nice();
     $: console.log(xScale);
 
@@ -79,7 +79,7 @@
 	
 	$: yScale = d3.scaleLinear()
 			.domain([0, 24])
-			.range([0, height]);
+			.range([usableArea.bottom, usableArea.top]);
 
     let margin = {top: 10, right: 10, bottom: 30, left: 20};
 
