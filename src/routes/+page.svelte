@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Stephen's Portfolio</title>
+    <title>Stephen's Portfolio</title>
 </svelte:head>
 <script>
     import projects from '$lib/projects.json';
@@ -19,11 +19,11 @@
 </p>
 
 {#await fetch("https://api.github.com/users/stephen-wilson") }
-	<p>Loading...</p>
+    <p>Loading...</p>
 {:then response}
-	{#await response.json()}
-		<p>Decoding...</p>
-	{:then data}
+    {#await response.json()}
+        <p>Decoding...</p>
+    {:then data}
         <section>
             <h2>Github Stats</h2>
             <dl>
@@ -34,11 +34,11 @@
                 <dd>{ JSON.stringify(data.followers) }</dd>
             </dl>
         </section>
-	{:catch error}
-		<p class="error">
-			Something went wrong: {error.message}
-		</p>
-	{/await}
+    {:catch error}
+        <p class="error">
+            Something went wrong: {error.message}
+        </p>
+    {/await}
 {:catch error}
 	<p class="error">
 		Something went wrong: {error.message}

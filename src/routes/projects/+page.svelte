@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Projects</title>
+    <title>Projects</title>
 </svelte:head>
 <script>
     import projects from '$lib/projects.json';

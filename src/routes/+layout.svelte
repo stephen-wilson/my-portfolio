@@ -6,6 +6,7 @@
         {url: "./resume", title: "Resume"},
         {url: "./projects", title: "Projects"},
         {url: "./contact", title: "Contact"},
+        {url: "./meta", title: "Meta"},
     ];
 
     let root = globalThis?.document?.documentElement;
@@ -67,9 +68,9 @@
 </label>
 
 <nav class="menu">
-	{#each pages as p }
-    <a href={ p.url } class:current={ "." + $page.route.id === p.url } target={ p.url.startsWith("http") ? "_blank" : null }>{ p.title }</a>
-	{/each}
+    {#each pages as p }
+        <a href={ p.url } class:current={ "." + $page.route.id === p.url } target={ p.url.startsWith("http") ? "_blank" : null }>{ p.title }</a>
+    {/each}
 </nav>
 
 <slot />
